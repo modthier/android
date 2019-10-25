@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "949812189716",
+    "firebase_url": "https://africataxi.firebaseio.com",
+    "project_id": "africataxi",
+    "storage_bucket": "africataxi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949812189716:android:af64a673a7f39f46",
+        "android_client_info": {
+          "package_name": "com.bmgroup.africataxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949812189716-01icpmk0pp0mksbfe02emdgg1f377397.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bmgroup.africataxi",
+            "certificate_hash": "4f2ec26e4bbc9206c1fe7aab2dd85b56c165212a"
+          }
+        },
+        {
+          "client_id": "949812189716-v120ggfjjl8kg10o5abo9a6il0mpn6jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_3RQVMcN7Cmk6HJBYdgNoMNAMjnO5-hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949812189716-v120ggfjjl8kg10o5abo9a6il0mpn6jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949812189716:android:f748c7baa96de5b8fa6501",
+        "android_client_info": {
+          "package_name": "com.bmgroup.africataxirider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949812189716-748pkhffr8kvcj7lnekqhhruklhg50bn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bmgroup.africataxirider",
+            "certificate_hash": "4f2ec26e4bbc9206c1fe7aab2dd85b56c165212a"
+          }
+        },
+        {
+          "client_id": "949812189716-v120ggfjjl8kg10o5abo9a6il0mpn6jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_3RQVMcN7Cmk6HJBYdgNoMNAMjnO5-hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949812189716-v120ggfjjl8kg10o5abo9a6il0mpn6jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949812189716:android:3e060e1b77177d65fa6501",
+        "android_client_info": {
+          "package_name": "com.bmgroup.otp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949812189716-vlu7v8fm6cse64br5r7h9lo0eh1e6f1j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bmgroup.otp",
+            "certificate_hash": "4f2ec26e4bbc9206c1fe7aab2dd85b56c165212a"
+          }
+        },
+        {
+          "client_id": "949812189716-v120ggfjjl8kg10o5abo9a6il0mpn6jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_3RQVMcN7Cmk6HJBYdgNoMNAMjnO5-hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949812189716-v120ggfjjl8kg10o5abo9a6il0mpn6jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
