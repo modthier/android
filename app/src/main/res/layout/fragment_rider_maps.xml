@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/rlMain"
+tools:context=".Fragments.RiderMapsFragment">
+
+
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.RiderMapsFragment"
+    />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/white_background"
+    android:id="@+id/rl_search"
+    >
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/iv_map_seaech"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/ic_search_map"
+        android:contentDescription="@string/map_search_image" />
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_toRightOf="@id/iv_map_seaech"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/iv_map_seaech"
+        tools:ignore="Autofill,LabelFor"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:background="@null"
+        android:inputType="text" />
+
+</RelativeLayout>
+
+
+</RelativeLayout>
