@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RideHistoryActivity">
+
+    <ImageView
+        android:id="@+id/imgCloseHistory"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/map_search_image"
+        android:src="@drawable/ic_close_red_30dp" />
+
+</LinearLayout>

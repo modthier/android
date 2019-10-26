@@ -27,7 +27,6 @@ tools:context=".Fragments.RiderMapsFragment">
     <ImageView
         android:layout_centerVertical="true"
         android:id="@+id/iv_map_seaech"
-        android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
         android:layout_width="15dp"
         android:layout_height="15dp"
@@ -35,7 +34,6 @@ tools:context=".Fragments.RiderMapsFragment">
         android:contentDescription="@string/map_search_image" />
     <EditText
         android:id="@+id/etSearch"
-        android:layout_toRightOf="@id/iv_map_seaech"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_toEndOf="@id/iv_map_seaech"

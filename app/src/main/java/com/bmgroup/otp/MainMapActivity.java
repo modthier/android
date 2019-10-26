@@ -1,7 +1,9 @@
 package com.bmgroup.otp;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import com.bmgroup.otp.Fragments.RiderMapsFragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -30,14 +32,6 @@ public class MainMapActivity extends AppCompatActivity
         setContentView(R.layout.activity_main_map);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -45,6 +39,11 @@ public class MainMapActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.frameContainer, new RiderMapsFragment()).commit();
+            navigationView.setCheckedItem(R.id.nav_home);
+        }
     }
 
     @Override
@@ -86,17 +85,13 @@ public class MainMapActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_tools) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+            getSupportFragmentManager().beginTransaction().replace(R.id.frameContainer, new RiderMapsFragment()).commit();
+        } else if (id == R.id.nav_profile) {
+            Intent profileIntent = new Intent(MainMapActivity.this,ProfileActivity.class);
+            startActivity(profileIntent);
+        } else if (id == R.id.nav_history) {
+            Intent historyIntent = new Intent(MainMapActivity.this,RideHistoryActivity.class);
+            startActivity(historyIntent);
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
